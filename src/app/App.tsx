@@ -7803,7 +7803,7 @@ export default App;*/
 
 // 0602 Testing remove session.id, start at: --> in hooks/useHandleServerEvent.ts
 
-/*"use client";
+"use client";
 
 import React, { useEffect, useRef, useState, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
@@ -8357,11 +8357,11 @@ function App() {
   );
 }
 
-export default App;*/
+export default App;
 
 // 0113 voice changing testing
 
-"use client";
+/*"use client";
 
 import React, { useEffect, useRef, useState, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
@@ -8888,7 +8888,7 @@ function AppContent() {
         maxHeight: "100dvh",
       }}
     >
-      {/* Header */}
+      {}
       <div className="p-3 sm:p-5 text-lg font-semibold flex justify-between items-center flex-shrink-0 border-b border-gray-200">
         <div
           className="flex items-center cursor-pointer"
@@ -8907,7 +8907,7 @@ function AppContent() {
         </div>
 
         <div className="flex items-center gap-3">
-          {/* NEW: Voice dropdown */}
+          {}
           <div className="flex items-center gap-2">
             <span className="text-sm font-medium hidden sm:inline">Voice</span>
             <select
@@ -8924,7 +8924,7 @@ function AppContent() {
             </select>
           </div>
 
-          {/* 麥克風按鈕 - 保持原來的樣式和圖標 */}
+          {}
           <button
             onClick={handleMicrophoneClick}
             className={`w-12 h-12 rounded-full flex items-center justify-center font-medium transition-all duration-200 relative ${
@@ -8940,7 +8940,7 @@ function AppContent() {
                 : "持續對話模式"
             }
           >
-            {/* 始終顯示麥克風圖標 */}
+            {}
             <svg
               width="20"
               height="20"
@@ -8951,7 +8951,7 @@ function AppContent() {
               <path d="M17 11c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-3.08c3.39-.49 6-3.39 6-6.92h-2z" />
             </svg>
 
-            {/* 收聽指示燈 - 綠色閃爍 */}
+            {}
             {!isPTTActive && isListening && !isOutputAudioBufferActive && (
               <div className="absolute -top-1 -right-1">
                 <div className="w-3 h-3 bg-green-400 rounded-full animate-ping"></div>
@@ -8962,7 +8962,7 @@ function AppContent() {
         </div>
       </div>
 
-      {/* Main content area */}
+      {}
       <div className="flex flex-1 gap-2 px-2 overflow-hidden relative min-h-0">
         <Transcript
           userText={userText}
@@ -8999,5 +8999,5 @@ function App() {
   );
 }
 
-export default App;
+export default App;*/
 
