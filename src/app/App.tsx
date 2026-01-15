@@ -8281,7 +8281,7 @@ function AppContent() {
             />
           </div>
           <div>
-            澎湖天后宮一百籤解籤服務
+            AI 陳龍分析
           </div>
         </div>
         
