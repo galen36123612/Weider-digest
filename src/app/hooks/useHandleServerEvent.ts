@@ -421,7 +421,7 @@ export function useHandleServerEvent({
           setSessionStatus("CONNECTED");
           // 移除 session.id 和時間資訊的顯示
           // 改為添加歡迎訊息
-          addTranscriptMessage("welcome", "assistant", "我是AI陳龍老師，想了解我怎麼解析台股嗎？");
+          addTranscriptMessage("welcome", "assistant", "我是AI股市名嘴，想了解我怎麼解析台股嗎？");
         }
         break;
       }
