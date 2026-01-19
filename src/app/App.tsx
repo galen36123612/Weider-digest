@@ -8273,8 +8273,8 @@ function AppContent() {
         >
           <div>
             <Image
-              src="/Weider_logo_1.png"
-              alt="Weider Logo"
+              src="/aigoasia_logo.png"
+              alt="Aigoasia Logo"
               width={40}
               height={40}
               className="mr-2"
