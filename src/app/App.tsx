@@ -8094,7 +8094,7 @@ function AppContent() {
       session: {
         modalities: ["text", "audio"],
         instructions,
-        voice: "sage",
+        voice: "cedar",
         input_audio_transcription: { model: "whisper-1" },
         turn_detection: turnDetection,
         tools,
@@ -8281,7 +8281,7 @@ function AppContent() {
             />
           </div>
           <div>
-            AI 陳龍分析
+            AI 股市名嘴
           </div>
         </div>
         
